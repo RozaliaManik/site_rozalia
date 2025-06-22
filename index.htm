@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Маник Розалия | Мастер йоги</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <a href="#services">Услуги</a> 
+      <a href="#schedule">Расписание</a>
+      <a href="#about">О специалисте</a>
+      <a href="#contact">Запись</a>
+    </nav>
+    <div class="hero-content">
+      <h1>Маник Розалия</h1>
+      <div class="highlight-box">
+        <p><strong>Мастер йоги с 15-летним опытом</strong></p>
+        <p>Образование: Институт Йоги и Здоровья, Москва</p>
+        <p>Преимущества: персональный подход, онлайн и оффлайн форматы, обучение инструкторов</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <h2>О специалисте</h2>
+      <div class="about-content">
+        <img src="images/avatar.jpg" alt="Фото Розалии" class="profile-pic" />
+        <div class="bio">
+          <p>Розалия — практикующий мастер йоги из Санкт-Петербурга. За 15 лет она помогла сотням учеников улучшить физическое и психическое здоровье.</p>
+          <p>Специализируется на классической хатха-йоге, а также аэройоге. Ведёт курсы повышения квалификации для начинающих и опытных инструкторов.</p>
+          <p>Миссия Розалии — сделать йогу доступной каждому вне зависимости от уровня подготовки или места проживания.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Услуги</h2>
+      <div class="service-cards">
+        <div class="card">
+          <img src="images/icon-yoga.png" alt="Йога">
+          <h3>Индивидуальные занятия</h3>
+          <p>Цена: 2500 ₽ / час</p>
+          <p>Персональная программа тренировок под ваши цели и уровень.</p>
+        </div>
+        <div class="card">
+          <img src="images/icon-group.png" alt="Группы">
+          <h3>Групповые занятия</h3>
+          <p>Цена: 1200 ₽ / занятие</p>
+          <p>Динамичные групповые занятия хатха-йогой 2 раза в неделю.</p>
+        </div>
+        <div class="card">
+          <img src="images/icon-air.png" alt="Аэройога">
+          <h3>Аэройога</h3>
+          <p>Цена: 3000 ₽ / занятие</p>
+          <p>Занятия с использованием гамаков для глубокого расслабления и растяжки.</p>
+        </div>
+        <div class="card">
+          <img src="images/icon-teacher.png" alt="Обучение">
+          <h3>Обучение инструкторов</h3>
+          <p>Цена: 35 000 ₽ за курс</p>
+          <p>Полный курс обучения для тех, кто хочет стать сертифицированным инструктором йоги.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="schedule" class="schedule">
+      <h2>Расписание</h2>
+      <table>
+        <tr>
+          <th>День недели</th>
+          <th>Время</th>
+          <th>Формат</th>
+          <th>Место</th>
+        </tr>
+        <tr>
+          <td>ПН</td>
+          <td>10:00 – 12:00</td>
+          <td>Оффлайн</td>
+          <td>ул. Восстания, д. 1</td>
+        </tr>
+        <tr>
+          <td>СР</td>
+          <td>18:00 – 20:00</td>
+          <td>Онлайн</td>
+          <td>Zoom</td>
+        </tr>
+        <tr>
+          <td>ПТ</td>
+          <td>16:00 – 18:00</td>
+          <td>Оффлайн</td>
+          <td>ул. Восстания, д. 1</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Записаться</h2>
+      <form id="booking-form">
+        <input type="text" id="name" placeholder="Ваше имя" required>
+        <input type="tel" id="phone" placeholder="Телефон" required>
+        <input type="date" id="date" required>
+        <input type="time" id="time" required>
+        <button type="submit">Отправить</button>
+        <div id="form-status"></div>
+      </form>
+      <div class="contacts-links">
+        <a href="https://t.me/Rozalia_Manik"  target="_blank">Telegram</a> |
+        <a href="tel:+79818316521">+7 981 831 6521</a> |
+        <a href="mailto:yogamaster@example.com">yogamaster@example.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Маник Розалия • Мастер йоги — Санкт-Петербург</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
