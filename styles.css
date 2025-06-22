@@ -177,3 +177,12 @@ footer {
   color: green;
   font-weight: bold;
 }
+.card .icon {
+  margin-bottom: 15px;
+}
+.card svg {
+  transition: transform 0.3s ease;
+}
+.card:hover svg {
+  transform: scale(1.1);
+}
